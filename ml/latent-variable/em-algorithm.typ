@@ -23,7 +23,7 @@ $
 
 #figure(
   image(
-    "../../assets/EM-algorithm.png",
+    "../../assets/ml/EM-algorithm.png",
     width: 100%
     )
 )

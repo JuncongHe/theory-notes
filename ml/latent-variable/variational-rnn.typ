@@ -17,7 +17,7 @@ $
 #hd4("数学公式")
 
 #figure(
-  image("../../assets/VariationalRNN.png")
+  image("../../assets/ml/VariationalRNN.png")
 )
 
 在生成过程中：

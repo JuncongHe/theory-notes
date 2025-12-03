@@ -33,7 +33,7 @@ $
 $
 
 #figure(
-  image("../../assets/GraphicalModel.png", width: 70%)
+  image("../../assets/ml/GraphicalModel.png", width: 70%)
 ) <graphical-model-img>
 
 如 graphical-model-img 右所示，因子图模型（一种特殊的无向图模型）的随机变量节点被边连接，这些边的具体关系又由 $Psi_A$ 决定。

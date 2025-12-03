@@ -20,7 +20,7 @@ $
   y_(d+1:D) &= x_(d+1:D) dot.o exp(s(x_(1:d))) + t(x_(1:d))
 $ <nf-forward>
 #figure(
-  image("../../assets/NormalizingFlowsCP.png", width: 80%)
+  image("../../assets/ml/NormalizingFlowsCP.png", width: 80%)
 )
 可以很容易得到其逆变换：
 $
