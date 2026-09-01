@@ -80,5 +80,14 @@
 #show math.equation.where(numbering: none): it => it.numbering("1.")
 #set math.mat(delim: "[", )
 
+// 内积
+#let ip(a, b) = $chevron.l #a, #b chevron.r$
+// 推导出/蕴含
+#let implies = $space.quad arrow.double space.quad$
+// 等价
+#let biimplies = $space.quad arrow.double.l.r space.quad$
+// 指示函数
+#let indicator = $bb(1)$
+
 #show: codly-init.with()
 #codly(languages: codly-languages)

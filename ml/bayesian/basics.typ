@@ -58,7 +58,7 @@ $ <BaysianBasic2>
 
 共轭分布是指：对于先验分布 $p(theta)$ 、似然函数 $p(X|theta)$和后验分布 $p(theta|X)$，若先验分布和后验分布属于同一分布族（distribution family），则称 $p(theta)$ 和 $p(X|theta)$ 为共轭分布。即：
 $
-p(theta) in cal(A)(alpha), p(X|theta) in cal(B)(beta) arrow.double p(theta|X) in cal(A)(alpha^prime)
+p(theta) in cal(A)(alpha), p(X|theta) in cal(B)(beta) implies p(theta|X) in cal(A)(alpha^prime)
 $
 这样的好处在于，我们可以直接获得后验分布 $p(theta|X)$ 的形式，从而可以忽略积分的过程，例如：
 $

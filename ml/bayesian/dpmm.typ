@@ -28,7 +28,7 @@ bb(E)_(D P (alpha, H)) [x] = bb(E)_(H) [x]
 $
 2.
 $
-alpha arrow infinity arrow.double D P(alpha, H) = H
+alpha arrow infinity implies D P(alpha, H) = H
 $
 3. 序列为无限长，无法完全在计算机中表达
 

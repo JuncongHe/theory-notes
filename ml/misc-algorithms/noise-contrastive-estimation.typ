@@ -31,7 +31,7 @@ $
 $
 hat(bold(theta))&= arg max_(bold(theta)) sum_(bold(u)) log p_m (bold(u);bold(theta))\
 &= arg max_(bold(theta)) sum_(bold(u)) log (p_m^0 (bold(u);bold(alpha)))/(c)\
-&arrow.double c arrow 0
+&implies c arrow 0
 $
 
 会导致 $c$ 趋近于无穷小，这样的结果显然无效。

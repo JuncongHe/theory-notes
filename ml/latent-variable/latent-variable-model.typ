@@ -20,7 +20,7 @@ $
   函数 $g(xi, x)$ 是另一函数 $f(x)$ 的 variational lower bound，当且仅当：
 
   - $forall xi, f(x) >= g(xi, x)$
-  - #margin-note($forall x_0, exists xi(x_0) arrow.double f(x_0) = g(xi(x_0), x_0)$)[例如过二次函数最低点的切线]
+  - #margin-note($forall x_0, exists xi(x_0) implies f(x_0) = g(xi(x_0), x_0)$)[例如过二次函数最低点的切线]
   这样，对于：
   $
     x = arg max_x f(x)
@@ -31,4 +31,3 @@ $
     xi_n &= xi(x_n) = arg max_xi g(xi, x_n)
   $
 ]
-
