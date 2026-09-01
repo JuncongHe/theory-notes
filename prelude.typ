@@ -14,6 +14,8 @@
   paper: "a4",
   numbering: "1",
   margin: (x: 1.6in),
+  // 页脚居中显示当前页码
+  footer: context { align(center)[#counter(page).display("1")] },
 )
 
 #set par(
@@ -25,33 +27,29 @@
 
 // 标题工具（沿用旧版样式，便于逐步迁移）
 #let hd1(in_text) = {
-  text(size: 18pt)[
-    #align(horizon)[
-      #heading(level: 1)[#in_text]
-      #v(10pt)
-    ]
+  set text(size: 18pt)
+  align(horizon)[
+    #heading(level: 1)[#in_text]
+    #v(10pt)
   ]
 }
 #let hd2(in_text) = {
-  text(size: 16pt)[
-    #align(center)[
-      #heading(level: 2)[#in_text]
-      #v(5pt)
-    ]
+  set text(size: 16pt)
+  align(center)[
+    #heading(level: 2)[#in_text]
+    #v(5pt)
   ]
 }
 #let hd3(in_text) = {
-  text(size: 14pt)[
-    #align(center)[
-      #heading(level: 3)[#in_text]
-    ]
+  set text(size: 14pt)
+  align(center)[
+    #heading(level: 3)[#in_text]
   ]
 }
 #let hd4(in_text) = {
-  text(size: 12pt)[
-    #align(left)[
-      #heading(level: 4)[#in_text]
-    ]
+  set text(size: 12pt)
+  align(left)[
+    #heading(level: 4)[#in_text]
   ]
 }
 
