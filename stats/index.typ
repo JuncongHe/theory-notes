@@ -4,3 +4,5 @@
 #pagebreak()
 
 #include "foundation.typ"
+#pagebreak()
+#include "information.typ"
