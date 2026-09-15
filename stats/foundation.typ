@@ -4,6 +4,8 @@
 
 #include "foundation/probability-basics.typ"
 #pagebreak()
+#include "foundation/counting-taxonomy.typ"
+#pagebreak()
 #include "foundation/conditioning-and-partitioning-the-sample-space.typ"
 #pagebreak()
 #include "foundation/random-vector.typ"
