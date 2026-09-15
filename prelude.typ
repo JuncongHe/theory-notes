@@ -88,6 +88,8 @@
 #let biimplies = $space.quad arrow.double.l.r space.quad$
 // 指示函数
 #let indicator = $bb(1)$
+// 线性包络
+#let span = math.op("span")
 
 #show: codly-init.with()
 #codly(languages: codly-languages)
