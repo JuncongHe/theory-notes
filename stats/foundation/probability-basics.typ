@@ -105,3 +105,25 @@ Given the axioms, we have consequence:
   because $D_i subset.eq A_i$, so $P(union.big_(i=1)^n A_i) = sum_(i=1)^n P(D_i) <= sum_(i=1)^n P(A_i)$
 
 - (Symmetric Difference Bound) $|P(A)-P(B)|<=P(A triangle B)$
+
+proof:
+$
+  P(A Delta B) =P(A \\ B) + P(B \\ A)
+$
+$
+  P(A) &= P(A inter B) + P(A \\ B)\
+  P(B) &= P(A inter B) + P(B \\ A)\
+$
+therefore
+$
+  P(A) - P(B) = P(A \\ B) - P(B \\ A) \
+$
+given
+$
+  |x-y|<=x+y
+$
+then
+$
+  |P(A) - P(B)| &= |P(A \\ B) - P(B \\ A)| \
+  &<= P(A \\ B) + P(B \\ A) = P(A triangle B)
+$
