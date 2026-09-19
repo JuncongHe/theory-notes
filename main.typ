@@ -1,4 +1,5 @@
 #import "prelude.typ": *
+#show: math-style
 
 #align(horizon + center)[#text(size: 28pt)[理论笔记]]
 

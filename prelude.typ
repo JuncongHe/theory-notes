@@ -78,7 +78,10 @@
   supplement: "Eq.",
 )
 #show math.equation.where(numbering: none): it => it.numbering("1.")
-#set math.mat(delim: "[", )
+#let math-style(doc) = {
+  set math.mat(delim: "[")
+  doc
+}
 
 // 内积
 #let ip(a, b) = $chevron.l #a, #b chevron.r$
@@ -90,6 +93,8 @@
 #let indicator = $bb(1)$
 // 线性包络
 #let span = math.op("span")
+// 对角矩阵算子
+#let diag = math.op("diag")
 
 #show: codly-init.with()
 #codly(languages: codly-languages)
